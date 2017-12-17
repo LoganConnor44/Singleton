@@ -19,7 +19,7 @@ class Policy {
 	/**
 	 * Sets object properties.
 	 *
-	 * @param integer $id			 The id of the insured.
+	 * @param integer $id            The id of the insured.
 	 * @param string  $nameOfInsured The name of the insured.
 	 */
 	public function __construct(int $id, string $nameOfInsured) {
