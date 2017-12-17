@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f5127de62583659effa1e1a95771f7f",
+    "content-hash": "e239bb637ca7e551d57709a04855b76d",
     "packages": [],
     "packages-dev": [
         {
@@ -775,6 +775,18 @@
             "homepage": "http://github.com/kherge/Version",
             "abandoned": true,
             "time": "2012-08-16T17:13:03+00:00"
+        },
+        {
+            "name": "loganconnor44/coding-standard-enforcement",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:LoganConnor44/coding-standard-enforcement.git",
+                "reference": "2693731b0cfe351112f2b7f9a9353b5c024b3cde"
+            },
+            "type": "git",
+            "description": "PHP Coding Standard",
+            "time": "2017-12-17T21:27:52+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2274,6 +2286,57 @@
                 "validator"
             ],
             "time": "2017-11-30T15:34:22+00:00"
+        },
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "ba816f2e1bacc16278792c78b67c730dfff064a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ba816f2e1bacc16278792c78b67c730dfff064a6",
+                "reference": "ba816f2e1bacc16278792c78b67c730dfff064a6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0"
+            },
+            "bin": [
+                "bin/phpcs",
+                "bin/phpcbf"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "time": "2017-12-12T21:36:10+00:00"
         },
         {
             "name": "symfony/config",

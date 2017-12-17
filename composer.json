@@ -11,7 +11,9 @@
 		"phpunit/phpunit": "4.8.*",
 		"phpdocumentor/reflection-docblock": "~2.0.4",
 		"phpdocumentor/phpdocumentor": "^2.9",
-		"phpdocumentor/graphviz": "^1.0.4"
+		"phpdocumentor/graphviz": "^1.0.4",
+		"squizlabs/php_codesniffer": "3.*",
+		"loganconnor44/coding-standard-enforcement": "1.0.2"
 	},
 	"scripts": {
 		"post-install-cmd": [
@@ -21,8 +23,7 @@
 	"repositories" : [
 		{
 			"type" : "git",
-			"url" : "git@github.com:LoganConnor44/coding-standard-enforcement.git",
-			"name" : "loganconnor44/coding-standard-enforcement"
+			"url" : "git@github.com:LoganConnor44/coding-standard-enforcement.git"
 		}
 	]
 }
