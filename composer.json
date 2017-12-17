@@ -12,5 +12,17 @@
 		"phpdocumentor/reflection-docblock": "~2.0.4",
 		"phpdocumentor/phpdocumentor": "^2.9",
 		"phpdocumentor/graphviz": "^1.0.4"
-	}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"bash contrib/setup-hook.sh"
+		]
+	},
+	"repositories" : [
+		{
+			"type" : "git",
+			"url" : "git@github.com:LoganConnor44/coding-standard-enforcement.git",
+			"name" : "loganconnor44/coding-standard-enforcement"
+		}
+	]
 }
