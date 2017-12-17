@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e239bb637ca7e551d57709a04855b76d",
+    "content-hash": "bdf74a1b36cdd14deb07dd9aef7cf934",
     "packages": [],
     "packages-dev": [
         {
@@ -778,15 +778,15 @@
         },
         {
             "name": "loganconnor44/coding-standard-enforcement",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:LoganConnor44/coding-standard-enforcement.git",
-                "reference": "2693731b0cfe351112f2b7f9a9353b5c024b3cde"
+                "reference": "ddd3c3220a744083dc27a283cd59469567b69f34"
             },
             "type": "git",
             "description": "PHP Coding Standard",
-            "time": "2017-12-17T21:27:52+00:00"
+            "time": "2017-12-17T21:44:09+00:00"
         },
         {
             "name": "monolog/monolog",
